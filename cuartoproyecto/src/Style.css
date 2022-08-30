@@ -13,4 +13,26 @@
   height: 92.75rem;
   /*background-color: blue;*/
 }
+.titulo {
+  font-size: x-large;
+  color: rgb(10, 10, 59);
+}
+
+
+
+.btn-bands {
+  width: 8.25rem;
+  height: 2.5625rem;
+  background-color: gray;
+  border-radius: 15%;
+  margin: .3rem;
+  font-size: large;
+}
+
+.btn-bands:hover {
+  
+  background-color: rgb(216, 135, 135);
+  border-radius: 15%;
+  
+}
 

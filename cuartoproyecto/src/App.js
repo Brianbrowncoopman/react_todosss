@@ -12,12 +12,13 @@ function App() {
   return (
     <nav className="App">
     <header className="app-header">
-    <h1>Bandas de Grunge</h1>
+    <br></br>  
+    <h1 className='titulo'>Bandas de Grunge</h1>
+    <br></br>
       <Link href="/GroupeOne">
         <button className='btn-bands'>Alice in chains</button>
       </Link>
       <Route path="/GroupeOne" component={GroupeOne}>Alice in chains</Route>
-
       <Link href="/GroupeTwo">
         <button className='btn-bands'>Soundgarden</button>
       </Link>
