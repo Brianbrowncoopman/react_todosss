@@ -1,6 +1,7 @@
 import './App.css';
 import { Link, Route, } from "wouter";
-import GroupeOne from './components/GroupeOne';
+import './Style.css';
+import GroupeOne from './components/GroupeOne/GroupeOne';
 import GroupeTwo from './components/GroupeTwo';
 import GroupeTree from './components/GroupeTree';
 import GroupeFour from './components/GroupFour';
@@ -33,6 +34,7 @@ function App() {
       <Route path="/Groupefour" component={GroupeFour}>Pearl-jam</Route>
 
       
+    
     </header>
   </nav>
   );
